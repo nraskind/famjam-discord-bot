@@ -6,7 +6,7 @@ Implemented a discord bot for my familys Fam Jam discord server. To begin, I fol
 
 ### 1. Install dependencies
 - Install python
-    - This project was created using python 3.10.10
+    - This project was created using python version 3.10.10
 - Install pip
     - This project was created using pip version 23.0.1
 - Install python modules using `requirements.txt`
@@ -15,7 +15,13 @@ Implemented a discord bot for my familys Fam Jam discord server. To begin, I fol
     /.../famjam-discord-bot/ # Project root
     $ pip install -r requirements.txt
     ```
-### 2. Get the bot token
+### 2. Add the bot token
+Create a .env file and add the discord token
+```bash
+$ pwd
+/.../famjam-discord-bot/ # Project root
+$ echo "DISCORD_TOKEN=<FIXME_GET_FROM_NAUM>" >> .env
+```
 Replace the placeholder `DISCORD_TOKEN=<FIXME_GET_FROM_NAUM>` in `.env` with the correct token
 
 ### 3. Start the bot
